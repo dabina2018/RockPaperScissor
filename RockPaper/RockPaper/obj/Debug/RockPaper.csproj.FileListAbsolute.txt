@@ -1,0 +1,5 @@
+C:\Users\Daveena.Cooper\source\repos\RockPaper\RockPaper\obj\Debug\RockPaper.csprojAssemblyReference.cache
+C:\Users\Daveena.Cooper\source\repos\RockPaper\RockPaper\obj\Debug\RockPaper.RockPaperScissors.resources
+C:\Users\Daveena.Cooper\source\repos\RockPaper\RockPaper\obj\Debug\RockPaper.Properties.Resources.resources
+C:\Users\Daveena.Cooper\source\repos\RockPaper\RockPaper\obj\Debug\RockPaper.csproj.GenerateResource.cache
+C:\Users\Daveena.Cooper\source\repos\RockPaper\RockPaper\obj\Debug\RockPaper.csproj.CoreCompileInputs.cache
