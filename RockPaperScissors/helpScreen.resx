@@ -118,16 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Welcome to the Rock, Paper &amp; Scissor game
-   ¬created by High King Meena
-Select the option for rck, paper or scissor
-The count down goes from 5 to 1
-Once it is completed the Computer will show its choice to you
+    <value>Welcome to the Rock, Paper &amp; Scissors game!
+   ¬designed by High King Meena
+Select the option for rock, paper or scissors
+    You have 5 seconds to make a choice!
 Rules of the Game:
-Rock beats Scissor
-Paper covers Rock
-Scissor cuts Paper
-You have 5 rounds of game play
+                  &gt;Rock beats Scissor
+                  &gt;Paper covers Rock
+                  &gt;Scissor cuts Paper
+You have 3 rounds of game play
 Good Luck and Enjoy!</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

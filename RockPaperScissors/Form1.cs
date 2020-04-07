@@ -183,10 +183,18 @@ namespace RockPaperScissors
 
         private void helpBtn_Click(object sender, EventArgs e)
         {
-            helpScreen help = new helpScreen();
+            helpScreenLabel help = new helpScreenLabel();
             help.Show();
         }
-       
+
+        //Display Player Data Entry Form
+        private void enterPlayerDataLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            timer1.Stop();
+            new playerDataEntry().Show();
+            //this.Hide();
+            enterPlayerDataLinkLabel.LinkVisited = true;
+        }
     }
 
    

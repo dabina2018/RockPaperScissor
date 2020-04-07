@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RockPaperScissors
 {
-    public partial class helpScreen : Form
+    public partial class helpScreenLabel : Form
     {
-        public helpScreen()
+        public helpScreenLabel()
         {
             InitializeComponent();
         }

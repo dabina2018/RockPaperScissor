@@ -41,6 +41,8 @@
             this.timerCntLabel = new System.Windows.Forms.Label();
             this.roundNumLabel = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.enterPlayerDataLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Title = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -157,6 +159,29 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // enterPlayerDataLinkLabel
+            // 
+            this.enterPlayerDataLinkLabel.AutoSize = true;
+            this.enterPlayerDataLinkLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterPlayerDataLinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.enterPlayerDataLinkLabel.Location = new System.Drawing.Point(313, 267);
+            this.enterPlayerDataLinkLabel.Name = "enterPlayerDataLinkLabel";
+            this.enterPlayerDataLinkLabel.Size = new System.Drawing.Size(130, 20);
+            this.enterPlayerDataLinkLabel.TabIndex = 12;
+            this.enterPlayerDataLinkLabel.TabStop = true;
+            this.enterPlayerDataLinkLabel.Text = "Enter Player Data";
+            this.enterPlayerDataLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.enterPlayerDataLinkLabel_LinkClicked);
+            // 
+            // Title
+            // 
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Segoe UI", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Title.Location = new System.Drawing.Point(12, 9);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(324, 45);
+            this.Title.TabIndex = 13;
+            this.Title.Text = "Rock Paper Scissors!";
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::RockPaperScissors.Properties.Resources.question;
@@ -185,6 +210,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(893, 461);
+            this.Controls.Add(this.Title);
+            this.Controls.Add(this.enterPlayerDataLinkLabel);
             this.Controls.Add(this.roundNumLabel);
             this.Controls.Add(this.timerCntLabel);
             this.Controls.Add(this.winLoseCntLabel);
@@ -225,6 +252,8 @@
         private System.Windows.Forms.Label timerCntLabel;
         private System.Windows.Forms.Label roundNumLabel;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.LinkLabel enterPlayerDataLinkLabel;
+        private System.Windows.Forms.Label Title;
     }
 }
 
