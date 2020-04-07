@@ -1,0 +1,11 @@
+C:\Users\daveena\source\repos\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\daveena\source\repos\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\daveena\source\repos\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.RockPaperScissors.resources
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.Properties.Resources.resources
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.GenerateResource.cache
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+C:\Users\daveena\source\repos\RockPaperScissors\obj\Debug\RockPaperScissors.helpScreen.resources
