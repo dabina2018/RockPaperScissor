@@ -92,6 +92,7 @@
             this.submitPlayerDataBtn.TabIndex = 7;
             this.submitPlayerDataBtn.Text = "Submit";
             this.submitPlayerDataBtn.UseVisualStyleBackColor = true;
+            this.submitPlayerDataBtn.Click += new System.EventHandler(this.submitPlayerDataBtn_Click);
             // 
             // playerDataEntry
             // 
@@ -108,7 +109,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "playerDataEntry";
             this.Text = "Player Data Entry";
             this.ResumeLayout(false);

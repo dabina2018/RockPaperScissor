@@ -45,13 +45,14 @@
             this.Title = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.startBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // rockBtn
             // 
-            this.rockBtn.Location = new System.Drawing.Point(6, 131);
+            this.rockBtn.Location = new System.Drawing.Point(84, 131);
             this.rockBtn.Margin = new System.Windows.Forms.Padding(6);
             this.rockBtn.Name = "rockBtn";
             this.rockBtn.Size = new System.Drawing.Size(138, 44);
@@ -62,7 +63,7 @@
             // 
             // paperBtn
             // 
-            this.paperBtn.Location = new System.Drawing.Point(6, 203);
+            this.paperBtn.Location = new System.Drawing.Point(84, 203);
             this.paperBtn.Margin = new System.Windows.Forms.Padding(6);
             this.paperBtn.Name = "paperBtn";
             this.paperBtn.Size = new System.Drawing.Size(138, 44);
@@ -73,7 +74,7 @@
             // 
             // scissorBtn
             // 
-            this.scissorBtn.Location = new System.Drawing.Point(6, 278);
+            this.scissorBtn.Location = new System.Drawing.Point(84, 277);
             this.scissorBtn.Margin = new System.Windows.Forms.Padding(6);
             this.scissorBtn.Name = "scissorBtn";
             this.scissorBtn.Size = new System.Drawing.Size(138, 44);
@@ -204,12 +205,24 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // startBtn
+            // 
+            this.startBtn.Font = new System.Drawing.Font("Segoe UI Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startBtn.Location = new System.Drawing.Point(462, 29);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(144, 25);
+            this.startBtn.TabIndex = 14;
+            this.startBtn.Text = "Start Game!";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
+            // 
             // RockPaperScissors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(893, 461);
+            this.Controls.Add(this.startBtn);
             this.Controls.Add(this.Title);
             this.Controls.Add(this.enterPlayerDataLinkLabel);
             this.Controls.Add(this.roundNumLabel);
@@ -230,6 +243,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "RockPaperScissors";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.RockPaperScissors_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -245,7 +259,6 @@
         private System.Windows.Forms.Button paperBtn;
         private System.Windows.Forms.Button scissorBtn;
         private System.Windows.Forms.Button helpBtn;
-        private System.Windows.Forms.Label player1NameLabel;
         private System.Windows.Forms.Label computerNameLabel;
         private System.Windows.Forms.Label winnerLabel;
         private System.Windows.Forms.Label winLoseCntLabel;
@@ -254,6 +267,8 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.LinkLabel enterPlayerDataLinkLabel;
         private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.Button startBtn;
+        public System.Windows.Forms.Label player1NameLabel;
     }
 }
 

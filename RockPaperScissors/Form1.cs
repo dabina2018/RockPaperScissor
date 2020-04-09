@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace RockPaperScissors
 {
@@ -15,7 +16,7 @@ namespace RockPaperScissors
         //declaring the variables for this game
 
         public int rounds = 3; // 5 rounds per game
-        public int timePerRound = 5; // 5 seconds per rounds
+        public int _ticker = 5; // 5 seconds per rounds
         //player choice options stored inside of an array
         string[] computerChoice = { "rock", "paper", "scissor", "paper" };
         public int randomNumber;
@@ -24,25 +25,47 @@ namespace RockPaperScissors
         string playerChoice;
         int playerWins = 0;
         int computerWins = 0;
+       
 
 
-        public RockPaperScissors()
+        public RockPaperScissors( )
         {
             InitializeComponent();
-            timer1.Enabled = true;
+            timer1.Enabled = false;
             playerChoice = "none";
+            
         }
 
-       private void timer1_Tick(object sender, EventArgs e)
+        private void enterPlayerDataLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            timer1.Stop(); // AWAIT!!!!
+            playerDataEntry entryForm = new playerDataEntry();
+            entryForm.Show();
+            //SetUserName(entryForm.userName);
+            enterPlayerDataLinkLabel.LinkVisited = true;
+        }
+
+        private void RockPaperScissors_Load(object sender, EventArgs e)
+        {
+            player1NameLabel.Text = playerDataEntry.userName;
+        }
+     
+        private void startBtn_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
        {
             roundNumLabel.Text = Convert.ToString(rounds);
-            timePerRound--; //reduce the timeby1
-            timerCntLabel.Text = Convert.ToString(timePerRound); //show the time on the screen
-            if (timePerRound < 1)//if the time is less then one second
+            _ticker--; //reduce the timeby1
+            timerCntLabel.Text = Convert.ToString(_ticker); //show the time on the screen
+            if (_ticker < 1)//if the time is less then one second
             {
                 timer1.Enabled = false; //timer will disbale if its less than one second left
 
-                timePerRound = 5; // set the timer back to 5 seconds
+                _ticker = 5; // set the timer back to 5 seconds
                 randomNumber = rnd.Next(0, 3); // randomize the number again
                 command = computerChoice[randomNumber]; // computer choice will be the random number
 
@@ -183,18 +206,25 @@ namespace RockPaperScissors
 
         private void helpBtn_Click(object sender, EventArgs e)
         {
+            timer1.Stop();  ///AWAIT!!!!
             helpScreenLabel help = new helpScreenLabel();
             help.Show();
         }
 
         //Display Player Data Entry Form
-        private void enterPlayerDataLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+       
+
+        private void sendGameData()
         {
-            timer1.Stop();
-            new playerDataEntry().Show();
-            //this.Hide();
-            enterPlayerDataLinkLabel.LinkVisited = true;
+            using (StreamReader reader = new StreamReader("Data.txt"))
+            {
+                string content = reader.ReadToEnd();
+                
+
+            }
         }
+
+       
     }
 
    
