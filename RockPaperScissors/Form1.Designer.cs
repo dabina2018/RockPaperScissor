@@ -1,6 +1,6 @@
 ﻿namespace RockPaperScissors
 {
-    partial class RockPaperScissors
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RockPaperScissors));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.rockBtn = new System.Windows.Forms.Button();
             this.paperBtn = new System.Windows.Forms.Button();
             this.scissorBtn = new System.Windows.Forms.Button();
@@ -242,8 +242,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "RockPaperScissors";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.RockPaperScissors_Load);
+            this.Text = "Form1";           
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

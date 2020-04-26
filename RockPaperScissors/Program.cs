@@ -20,7 +20,7 @@ namespace RockPaperScissors
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RockPaperScissors());
+            Application.Run(new Form1(""));
         }
     }
 }

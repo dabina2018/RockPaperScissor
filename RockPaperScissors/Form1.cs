@@ -11,12 +11,12 @@ using System.IO;
 
 namespace RockPaperScissors
 {
-    public partial class RockPaperScissors : Form
+    public partial class Form1 : Form
     {
         //declaring the variables for this game
-
-        public int rounds = 3; // 5 rounds per game
-        public int _ticker = 5; // 5 seconds per rounds
+         
+        public int rounds = 3; // 3 rounds per game
+        public int _ticker = 5; // 5 seconds per round
         //player choice options stored inside of an array
         string[] computerChoice = { "rock", "paper", "scissor", "paper" };
         public int randomNumber;
@@ -25,35 +25,33 @@ namespace RockPaperScissors
         string playerChoice;
         int playerWins = 0;
         int computerWins = 0;
+        string playerName = "Your Name Here";
+
        
 
 
-        public RockPaperScissors( )
+        public Form1( string playerName)
         {
+            
             InitializeComponent();
             timer1.Enabled = false;
             playerChoice = "none";
-            
+            player1NameLabel.Text = playerName;
         }
 
         private void enterPlayerDataLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             timer1.Stop(); // AWAIT!!!!
-            playerDataEntry entryForm = new playerDataEntry();
+            playerDataEntry entryForm = new playerDataEntry(player1NameLabel.Text);
             entryForm.Show();
-            //SetUserName(entryForm.userName);
+            
             enterPlayerDataLinkLabel.LinkVisited = true;
         }
 
-        private void RockPaperScissors_Load(object sender, EventArgs e)
-        {
-            player1NameLabel.Text = playerDataEntry.userName;
-        }
-     
+          
         private void startBtn_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            
         }
 
         private void timer1_Tick(object sender, EventArgs e)

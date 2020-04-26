@@ -21,3 +21,15 @@ D:\Users\daveena.cooper\Documents\Repos\RockPaperScissor\RockPaperScissors\obj\D
 D:\Users\daveena.cooper\Documents\Repos\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
 D:\Users\daveena.cooper\Documents\Repos\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.playerDataEntry.resources
 D:\Users\daveena.cooper\Documents\Repos\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.helpScreenLabel.resources
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csprojAssemblyReference.cache
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.playerDataEntry.resources
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.helpScreenLabel.resources
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.Properties.Resources.resources
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.GenerateResource.cache
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.Form1.resources

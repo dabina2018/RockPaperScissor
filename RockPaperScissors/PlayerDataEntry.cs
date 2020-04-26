@@ -17,31 +17,22 @@ namespace RockPaperScissors
         public static string userName = "Your Name";
         public string userEmail = "you@domain.com";
       
-        public playerDataEntry()
+        public playerDataEntry(string playerName)
         {
             InitializeComponent();
         }
        
         public void submitPlayerDataBtn_Click(object sender, EventArgs e)
         {
-            bool Isopen = false;
-            foreach (Form f in Application.OpenForms)
-            {
-                if(f.Text == "Form1")
-                {
-                    Isopen = true;
-                    f.BringToFront();
-                    break;
-                }
-            }
-
             userName = playerNameText.Text;
-            userEmail = playerEmailText.Text;            
+            userEmail = playerEmailText.Text;
             MessageBox.Show("user data was submitted");
-            RockPaperScissors form1 = new RockPaperScissors();
-            form1.Show();
-            
+            Form1.Show(playerNameText);
         }
-            
+
+        private void playerDataEntry_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
