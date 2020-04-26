@@ -43,8 +43,10 @@ namespace RockPaperScissors
         {
             timer1.Stop(); // AWAIT!!!!
             playerDataEntry entryForm = new playerDataEntry(player1NameLabel.Text);
-            entryForm.Show();
-            
+            entryForm.Show(); //REMOVE
+            //entryForm.ShowDialog();  //prevents multiple forms opening.
+            //if (entryForm.ShowDialog() == DialogResult.OK) // form will if user clicks submit (submit will save)
+            //
             enterPlayerDataLinkLabel.LinkVisited = true;
         }
 
