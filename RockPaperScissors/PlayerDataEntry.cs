@@ -28,6 +28,7 @@ namespace RockPaperScissors
             userEmail = playerEmailText.Text;
             MessageBox.Show("user data was submitted");
             Form1.Show(playerNameText);
+            //save player data
         }
 
         private void playerDataEntry_Load(object sender, EventArgs e)
