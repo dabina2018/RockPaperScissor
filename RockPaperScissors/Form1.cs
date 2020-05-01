@@ -25,28 +25,40 @@ namespace RockPaperScissors
         string playerChoice;
         int playerWins = 0;
         int computerWins = 0;
-        string playerName = "Your Name Here";
+        //public string player1Name;
+        
 
-       
 
-
-        public Form1( string playerName)
+        public Form1()
         {
-            
             InitializeComponent();
             timer1.Enabled = false;
             playerChoice = "none";
-            player1NameLabel.Text = playerName;
+            Binding binding = new Binding("Text", player1NameLabel, "text", true, DataSourceUpdateMode.OnValidation);
+
         }
 
         private void enterPlayerDataLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             timer1.Stop(); // AWAIT!!!!
-            playerDataEntry entryForm = new playerDataEntry(player1NameLabel.Text);
-            entryForm.Show(); //REMOVE
-            //entryForm.ShowDialog();  //prevents multiple forms opening.
+            playerDataEntry entryForm = new playerDataEntry();
+            //Player playerOne = new Player(, playerEmailText.Text);
+            //BindingSource nameDataBindingSrc = new BindingSource();
+            //nameDataBindingSrc.DataSource = entryForm.playerOne;
+
+            //entryForm.UserName = "Your Name here";
+            //BindingSource nameBinding = new BindingSource();
+
+
+            //entryForm.FormClosed += new FormClosedEventHandler(object sender, FormClosedEventArgs e));
+            
+
+
+            //entryForm.Show(); //REMOVE
+            entryForm.ShowDialog();  //prevents multiple forms opening.
             //if (entryForm.ShowDialog() == DialogResult.OK) // form will if user clicks submit (submit will save)
             //
+            this.player1NameLabel.Text = entryForm._playerOne.UserName;
             enterPlayerDataLinkLabel.LinkVisited = true;
         }
 

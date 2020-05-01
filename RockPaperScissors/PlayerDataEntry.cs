@@ -14,26 +14,29 @@ namespace RockPaperScissors
 {
     public partial class playerDataEntry : Form
     {
-        public static string userName = "Your Name";
-        public string userEmail = "you@domain.com";
-      
-        public playerDataEntry(string playerName)
+        public Player _playerOne = new Player();
+        List<Player> PlayerList = new List<Player>();
+
+        public playerDataEntry()
         {
             InitializeComponent();
+            //property binding :           (type, dataSource, dataSource member, auto convert/twoway binding, update mode)
+            playerNameText.DataBindings.Add("Text", _playerOne, "UserName", true, DataSourceUpdateMode.OnValidation);   
         }
        
         public void submitPlayerDataBtn_Click(object sender, EventArgs e)
         {
-            userName = playerNameText.Text;
-            userEmail = playerEmailText.Text;
             MessageBox.Show("user data was submitted");
-            Form1.Show(playerNameText);
-            //save player data
+            _playerOne.UserName = playerNameText.Text;
+            _playerOne.UserEmail = playerEmailText.Text;
+
+            // TO DO save player data to database //collection data binding
+            PlayerList.Add(this._playerOne);
         }
 
         private void playerDataEntry_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

@@ -100,9 +100,10 @@
             this.player1NameLabel.Location = new System.Drawing.Point(323, 100);
             this.player1NameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.player1NameLabel.Name = "player1NameLabel";
-            this.player1NameLabel.Size = new System.Drawing.Size(111, 25);
+            this.player1NameLabel.Size = new System.Drawing.Size(170, 40);
             this.player1NameLabel.TabIndex = 6;
             this.player1NameLabel.Text = "Your Name";
+
             // 
             // computerNameLabel
             // 
@@ -110,7 +111,7 @@
             this.computerNameLabel.Location = new System.Drawing.Point(627, 100);
             this.computerNameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.computerNameLabel.Name = "computerNameLabel";
-            this.computerNameLabel.Size = new System.Drawing.Size(102, 25);
+            this.computerNameLabel.Size = new System.Drawing.Size(155, 40);
             this.computerNameLabel.TabIndex = 7;
             this.computerNameLabel.Text = "Computer";
             // 
@@ -120,7 +121,7 @@
             this.winnerLabel.Location = new System.Drawing.Point(479, 150);
             this.winnerLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.winnerLabel.Name = "winnerLabel";
-            this.winnerLabel.Size = new System.Drawing.Size(106, 25);
+            this.winnerLabel.Size = new System.Drawing.Size(163, 40);
             this.winnerLabel.TabIndex = 8;
             this.winnerLabel.Text = "Win / Lose";
             // 
@@ -130,7 +131,7 @@
             this.winLoseCntLabel.Location = new System.Drawing.Point(524, 203);
             this.winLoseCntLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.winLoseCntLabel.Name = "winLoseCntLabel";
-            this.winLoseCntLabel.Size = new System.Drawing.Size(23, 25);
+            this.winLoseCntLabel.Size = new System.Drawing.Size(34, 40);
             this.winLoseCntLabel.TabIndex = 9;
             this.winLoseCntLabel.Text = "0";
             // 
@@ -140,7 +141,7 @@
             this.timerCntLabel.Location = new System.Drawing.Point(33, 394);
             this.timerCntLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.timerCntLabel.Name = "timerCntLabel";
-            this.timerCntLabel.Size = new System.Drawing.Size(55, 25);
+            this.timerCntLabel.Size = new System.Drawing.Size(85, 40);
             this.timerCntLabel.TabIndex = 10;
             this.timerCntLabel.Text = "Time";
             // 
@@ -150,7 +151,7 @@
             this.roundNumLabel.Location = new System.Drawing.Point(121, 394);
             this.roundNumLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.roundNumLabel.Name = "roundNumLabel";
-            this.roundNumLabel.Size = new System.Drawing.Size(23, 25);
+            this.roundNumLabel.Size = new System.Drawing.Size(34, 40);
             this.roundNumLabel.TabIndex = 11;
             this.roundNumLabel.Text = "0";
             // 
@@ -167,7 +168,7 @@
             this.enterPlayerDataLinkLabel.LinkColor = System.Drawing.Color.Black;
             this.enterPlayerDataLinkLabel.Location = new System.Drawing.Point(313, 267);
             this.enterPlayerDataLinkLabel.Name = "enterPlayerDataLinkLabel";
-            this.enterPlayerDataLinkLabel.Size = new System.Drawing.Size(130, 20);
+            this.enterPlayerDataLinkLabel.Size = new System.Drawing.Size(198, 31);
             this.enterPlayerDataLinkLabel.TabIndex = 12;
             this.enterPlayerDataLinkLabel.TabStop = true;
             this.enterPlayerDataLinkLabel.Text = "Enter Player Data";
@@ -179,7 +180,7 @@
             this.Title.Font = new System.Drawing.Font("Segoe UI", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title.Location = new System.Drawing.Point(12, 9);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(324, 45);
+            this.Title.Size = new System.Drawing.Size(483, 65);
             this.Title.TabIndex = 13;
             this.Title.Text = "Rock Paper Scissors!";
             // 
@@ -216,9 +217,9 @@
             this.startBtn.UseVisualStyleBackColor = true;
             this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
-            // RockPaperScissors
+            // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 40F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(893, 461);
@@ -241,8 +242,8 @@
             this.ForeColor = System.Drawing.Color.DodgerBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "RockPaperScissors";
-            this.Text = "Form1";           
+            this.Name = "Form1";
+            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

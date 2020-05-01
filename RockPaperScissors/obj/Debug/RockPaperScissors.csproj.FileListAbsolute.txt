@@ -33,3 +33,15 @@ D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\Roc
 D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.exe
 D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
 D:\Users\da.kupa\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.Form1.resources
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.playerDataEntry.resources
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.Form1.resources
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.helpScreenLabel.resources
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.Properties.Resources.resources
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.GenerateResource.cache
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\dabina2018\Documents\code\RockPaperScissor\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
