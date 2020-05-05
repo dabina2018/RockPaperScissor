@@ -208,16 +208,11 @@ namespace RockPaperScissors
             help.Show();
         }
 
-        //Display Player Data Entry Form
-       
-
         private void sendGameData()
         {
             using (StreamReader reader = new StreamReader("Data.txt"))
             {
                 string content = reader.ReadToEnd();
-                
-
             }
         }
 

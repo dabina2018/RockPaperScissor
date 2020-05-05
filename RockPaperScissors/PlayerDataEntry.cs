@@ -20,7 +20,6 @@ namespace RockPaperScissors
         public playerDataEntry()
         {
             InitializeComponent();
-            //property binding :           (type, dataSource, dataSource member, auto convert/twoway binding, update mode)
             playerNameText.DataBindings.Add("Text", _playerOne, "UserName", true, DataSourceUpdateMode.OnValidation);   
         }
        
@@ -30,7 +29,7 @@ namespace RockPaperScissors
             _playerOne.UserName = playerNameText.Text;
             _playerOne.UserEmail = playerEmailText.Text;
 
-            // TO DO save player data to database //collection data binding
+            // TO DO save player data to //collection data binding
             PlayerList.Add(this._playerOne);
         }
 
