@@ -1,6 +1,6 @@
 # RockPaperScissor
-Windows Form Project
-Created a Rock Paper Scissor Game using a Tutorial
+Windows Form Project:
+A Rock Paper Scissor Game
 
 Added Features: 
 > user data entry page
